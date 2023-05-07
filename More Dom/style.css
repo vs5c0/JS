@@ -1,0 +1,78 @@
+body{
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(to right, 
+    #00f260, 
+    #0575e6);
+
+}
+
+
+
+.container{
+    height:500px;
+    width:500px;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-top-left-radius: 30px;
+
+    
+    background-image: linear-gradient(45deg,#12c2e9, 
+    #c471ed, 
+    #f64f59);
+}
+
+.bt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-image: linear-gradient(45deg,rgb(89, 11, 87),rgb(95, 191, 218),rgb(230, 135, 165)) ;
+    padding-top:20px;
+    border-radius: 10px;
+    border-style: inset;
+    padding-bottom: 20px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:30px;
+ 
+}
+.bt1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-image: linear-gradient(45deg,rgb(89, 11, 87),rgb(95, 191, 218),rgb(230, 135, 165)) ;
+    padding-top:20px;
+    border-radius: 10px;
+    border-style: inset;
+    padding-bottom: 20px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:30px;
+}
+.heading{
+    font-family: "Caveat";
+    font-size:30px;
+    color: blue;
+    font-weight: bold;
+}
+img{
+    position: absolute;
+    top :20%;
+    left:50%; 
+transform: translate(-50%,-50%); 
+
+
+}
+input{
+    position: absolute;
+    top :30%;
+    left:55%; 
+transform: translate(-50%,-50%);
+}

@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(rgb(216, 106, 202),rgb(81, 81, 235),rgb(162, 214, 162));
+}
+
+.container{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-image: linear-gradient(45deg, #25383c, 
+    #9c6cb4, 
+    #f5979d);
+}
+
+
+
+
+button {
+    color: #0df08a;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #9bc0e1;
+    border: 1px solid #6345ce;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c471ed, 
+  
+                -6px -6px 12px   #c471ed;
+   }
+   
+   button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #12c2e9, 
+    
+                inset -4px -4px 12px #c471ed;
+   }
