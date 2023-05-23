@@ -1,0 +1,79 @@
+<html>
+<head>
+<style>
+#out{
+font-size:30px;
+color:blue;
+background-color:lightgreen;
+}
+h1{
+color:black;
+background-color:orange;
+font-family:"Times New Roman";
+font-size:50px;
+text-align:center;
+}
+</style>
+</head>
+<body>
+<!-- For loop Example in JavaScript. We have mainly three ways to implement the for loop : 
+1.We can give intializtion variable in out side of the for loop.
+2.condition inside of loop and Updation inside the flower brackets-->
+
+<marquee><h1>Iterative statements</h1></marquee>
+<h2 id="out"></h2>
+<script>
+var i;out=" ";
+for(i=1;i<=60;i++)
+{
+out+=i+" "
+<!--Condition can be below-->
+if(i%13==0)
+out+="<br> "
+}
+document.getElementById("out").innerHTML=out;
+</script>
+</body>
+</html>
+<br>
+<br>
+
+
+<!--While loop example in JavaScript-->
+
+<html>
+<head>
+<style>
+#Res{
+font-size:30px;
+color:blue;
+background-color:lightgreen;
+}
+h1{
+color:black;
+background-color:orange;
+font-family:"Times New Roman";
+font-size:50px;
+text-align:center;
+}
+</style>
+</head>
+<body>
+<!-- while loop Example in JavaScript-->
+
+<marquee><h1>Iterative statements</h1></marquee>
+<h2 id="Res"></h2>
+<script>
+var i=0; Res=" ";
+while(i<=90)
+{
+Res+=i+" "
+i++
+if(i%13==0)
+Res+="<br>"
+}
+document.getElementById("Res").innerHTML=Res;
+</script>
+</body>
+</html>
+
