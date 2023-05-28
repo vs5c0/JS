@@ -1,0 +1,57 @@
+<html>
+<body>
+<h1>Array Methods</h1>
+<script>
+document.writeln("<h2>");
+
+var x = [12,25,788,5]
+var y = [5,4,6,743,3,5,65]
+<!--join() method in JS-->
+document.writeln(x.join("#")+"<br><br>");
+
+<!--sort() method in JS-->
+var z = ["x","a","w"]
+document.writeln(z.sort()+"<br><br>");
+document.writeln("z="+z+"<br><br>");
+
+<!--reverse() method in JS-->
+document.writeln(x.reverse()+"<br><br>");
+
+<!--push() method in JS-->
+document.writeln(z.push("y")+"<br><br>");
+document.writeln("z="+z+"<br><br>");
+
+<!--pop() method in JS-->
+document.writeln(x.pop()+"<br><br>");
+document.writeln("x="+x+"<br><br>");
+
+<!--shift() method in JS-->
+document.writeln(y.shift()+"<br><br>");
+document.writeln("y="+y+"<br><br>");
+
+<!--unshift() method in JS-->
+document.writeln(y.unshift(67)+"<br><br>");
+document.writeln("y="+y+"<br><br>");
+
+<!--concat() method in JS-->
+document.writeln(y.concat(z)+"<br><br>");
+document.writeln(y.concat(13441)+"<br><br>");
+document.writeln("y="+y+"<br><br>");
+
+<!--splice() method in JS  insert the elements-->
+document.writeln(y.splice(1,0,234)+"<br><br>");
+document.writeln("y="+y+"<br><br>");
+
+<!--splice() method in JS  deleting the elements-->
+document.writeln(y.splice(1,4)+"<br><br>");
+document.writeln("y="+y+"<br><br>");
+
+<!--slice() method in JS  insert the elements-->
+var cv =[1200,3400,5346,"string",20000]
+document.write("cv="+cv+"<br><br>");
+document.writeln(cv.slice(1,4)+"<br><br>");
+document.writeln(cv.slice(0)+"<br><br>");
+
+</script>
+</body>
+</html>
