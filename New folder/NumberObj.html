@@ -1,0 +1,56 @@
+<html>
+<body>
+<h1>Number Objects</h1>
+<script>
+<!-- By creating a Object we can use the New keyword-->
+var x=23;
+var y=new Number(234);
+var z=new Number(234);
+document.write("Type of  X:" +typeof x+ "<br>");
+document.write("Type of  Y:" +typeof y+"<br>");
+document.write("Type of  Z:" +typeof z+"<br>");
+document.write("X==Y:"+(x==z)+"<br>");
+document.write("X===Y:"+(x===y)+"<br>");
+document.write("Y===Z:"+(y===z)+"<br>");
+
+</script>
+</body>
+</html>
+<br>
+<br>
+
+<html>
+<body>
+<h1>Number Objects</h1>
+<script>
+<!-- Methods in Numbers-->
+var x=23;
+var y=new Number(234);
+var z=new Number(234);
+var n=1.14523;
+var s=x.toString()
+var e=n.toExponential(4)
+var f=n.toFixed(3)
+var p=n.toPrecision(4)
+document.write("Type of  S:" +typeof s+ "<br>");
+document.write("Exponential Form:" +n+ "<br>");
+document.write("Fixed Form:" +n+ "<br>");
+document.write("Precision Form:" +n+ "<br>");
+document.write("Type of  E:" +typeof e+ "<br>");
+<!-- Numbers to Variable conversion--->
+var a=Number(e);
+var b=parseInt(e);
+var c=parseFloat(e);
+document.write("Type of  A:" +typeof a+ "<br>" +"Value of A:" +a+"<br>");
+document.write("Type of  B:" +typeof b+ "<br>" +"Value of B:" +b+"<br>");
+document.write("Type of  C:" +typeof c+ "<br>" +"Value of C:" +c+"<br>");
+
+<!--Number Properties in Objeccts-->
+document.write("MIN_VALUE:"+Number.MIN_VALUE+"<br>");
+document.write("MAX_VALUE:"+Number.MAX_VALUE+"<br>");
+document.write("POSTIVIE_INFINITY:"+Number.POSTIVIE_INFINITY+"<br>");
+document.write("NEGATIVE_INFINITY:"+Number.NEGATIVIE_INFINITY+"<br>");
+document.write("Not a Number:"+Number.NaN+"<br>");
+</script>
+</body>
+</html>
