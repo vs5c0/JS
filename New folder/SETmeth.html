@@ -1,0 +1,51 @@
+<html>
+<body>
+<h1>SET Methods in Date Object<h1>
+<script>
+document.writeln("<h2>");
+
+<!---setFullYear() method in DO-->
+var t= new Date()
+document.writeln(t+"<br><br>");
+t.setFullYear(2029)
+document.writeln("Year == <br>"+t+"<br><br>");
+
+<!---setDate() method in DO--->
+
+t.setDate(23)
+document.writeln("Date==<br>"+t+"<br><br>");
+
+<!---setMonth() method in DO--->
+
+t.setMonth(0)
+document.writeln("Month==<br>"+t+"<br><br>");
+
+<!---setHours() method in DO--->
+
+t.setHours(7)
+document.writeln("Hours==<br>"+t+"<br><br>");
+
+<!---setSeconds() methods in DO--->
+
+t.setSeconds(23)
+document.writeln("Seconds==<br>"+t+"<br><br>");
+
+<!---setSeconds() methods in DO--->
+
+t.setMilliseconds(678)
+document.writeln("Milliseconds==<br>"+t+"<br><br>");
+
+<!---setTime() methods in DO--->
+
+t.setTime(-1340000000)
+document.writeln("Time==<br>"+t+"<br><br>");
+
+
+document.writeln("Date==="+t.getDate()+"<br>");
+
+
+
+
+</script>
+</body>
+</html>
